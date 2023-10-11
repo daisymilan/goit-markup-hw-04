@@ -5,6 +5,7 @@
     --WHITE: #FFFFFF;
     --SLATE: #434455;
     --CORNFLOWER: #E7E9FC;
+    --LIGHT-SLATE : #8E8F99;
 
 }
 
@@ -208,6 +209,15 @@ section.section-2.section {
     padding-top: 0;
 }
 
+.features-icons {
+    width: 264px;
+    height: 112px;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--CLOUD);
+    padding: 24px 0;
+
+}
 
 .term {
     color: var(--NAVY-BLUE);
@@ -305,6 +315,70 @@ h3 {
     letter-spacing: 0.32px;
     text-align: center;
     padding-bottom: 32px;
+}
+
+.team-socials {
+display: flex;
+   justify-content: space-around;
+   padding-bottom: 32px;
+}
+
+.team-socials-icon {
+    background-color: var(--IRIS);
+    fill: var(--WHITE);
+    align-items: center;
+    padding: 12px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CUSTOMER SECTION */
+
+.customers {
+    height:440px;
+}
+
+.section-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    padding-top: 120px;
+    padding-right: 628px;
+}
+
+.customer-list {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 72px;
+    padding-left: 156px;
+}
+
+.list-icon {
+    border: 1px solid var(--LIGHT-SLATE);
+    padding: 16px 32px;
+    width: 168px;
+        height: 88px;
+}
+
+.list-icon svg{
+    
+    fill: var(--LIGHT-SLATE);
+}
+
+.list-icon:hover;
+.list-icon:focus {
+    
 }
 
      /* FOOTER */
